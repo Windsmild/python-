@@ -1,4 +1,4 @@
-def hanoi(n,x,y,z):
+def hanoi(n,x='A',y='B',z='C'):
     if n==1:
         print(x,'-->',z)
     else:
